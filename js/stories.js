@@ -183,4 +183,4 @@ async function toggleStoryFavorite(evt){
   }
 }
 
-$storiesList.on("click", ".star", toggleSoryFavorite);
+$storiesLists.on("click", ".star", toggleStoryFavorite);
