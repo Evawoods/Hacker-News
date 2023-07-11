@@ -100,7 +100,7 @@ class StoryList {
     });
 
     // filter out storyId that is being removed
-    this.stories = this.stories.filter(story => s.storyId !== storyId);
+    this.stories = this.stories.filter(s => s.storyId !== storyId);
 
     // filter user's list and favorites 
     user.ownStories = user.ownStories.filter(s => s.storyId !== storyId);
