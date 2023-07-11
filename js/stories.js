@@ -59,7 +59,7 @@ function getStarHTML(story, user){
   const starType = isFavorite ? "fas" : "far";
   return `
   <span class="star">
-    <i class="${starType} fa-star>"</i>
+    <i class="${starType} fa-star"></i>
   </span>`
 }
 
